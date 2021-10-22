@@ -215,6 +215,9 @@ footer .social_icon li a{
 footer .social_icon li a:hover{
   transform: translateY(-10px)
 }
+.container-player{
+  margin: 40px;
+}
 
 @media(max-width:991px)
 {

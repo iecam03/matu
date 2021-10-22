@@ -1,6 +1,5 @@
 import Layout from "../componentes/Layout"
 import ReactPlayer from "react-player"
-import {Container} from "semantic-ui-react"
 import Cards from "../componentes/Cards"
 import Footer from "../componentes/Footer"
 
@@ -10,8 +9,8 @@ export default function Home() {
   return (
     <div>
       <Layout>
-        <Container centered align="center" >
-            <Container className="player-wrapper">
+        <div className="container-player">
+            <div className="player-wrapper">
                 <ReactPlayer
                     loop="true"
                     playing="true"
@@ -21,8 +20,8 @@ export default function Home() {
                     height='100%'
                     controls="false"
                 />
-            </Container>             
-        </Container>
+            </div>             
+        </div>
         <Cards/>
         <Footer/>
       </Layout>  
