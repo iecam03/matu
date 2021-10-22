@@ -1,13 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
-import eucalipto from "../.next/static/media/eucalipto.jpeg"
-import menta from "../.next/static/media/menta.jpeg"
-import limoncillo from "../.next/static/media/limoncillo.jpeg"
-import romero from "../.next/static/media/romero.jpeg"
-import lavanda from "../.next/static/media/lavanda.jpeg"
-import poleo from "../.next/static/media/poleo.jpeg"
-import trigo from "../.next/static/media/trigo.jpeg"
-import linaza from "../.next/static/media/linaza.jpeg"
+import eucalipto from "../public/eucalipto.jpeg"
+import menta from "../public/menta.jpeg"
+import limoncillo from "../public/limoncillo.jpeg"
+import romero from "../public/romero.jpeg"
+import lavanda from "../public/lavanda.jpeg"
+import poleo from "../public/poleo.jpeg"
+import trigo from "../public/trigo.jpeg"
+import linaza from "../public/linaza.jpeg"
 
 export default function Aromas() {
     return (

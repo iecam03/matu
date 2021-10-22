@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import Link from "next/link"
 import Head from 'next/head'
 import Image from 'next/image'
-import Logo from '../.next/static/media/logo.jpg'
+import Logo from '../public/Logo.jpg'
 
 export default function Diseño(props) {
     let menu = useRef(null)

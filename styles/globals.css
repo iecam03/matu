@@ -232,7 +232,7 @@ footer .social_icon li a:hover{
     width: 30px;
     height: 30px;
     cursor:pointer;
-    background: url(../.next/static/media/menu.png);
+    background: url(../public/menu.png);
     background-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
@@ -241,7 +241,7 @@ footer .social_icon li a:hover{
   .toggle.active{
     position: fixed;
     right: 20px;
-    background: url(../.next/static/media/close.png);
+    background: url(../public/close.png);
     background-size: 27px;
     background-position: center;
     background-repeat: no-repeat;

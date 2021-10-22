@@ -1,14 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
-import inicioP1 from "../.next/static/media/inicioP1.jpg"
-import inicioP2 from "../.next/static/media/inicioP2.jpg"
-import inicioP3 from "../.next/static/media/inicioP3.jpg"
-import inicioP4 from "../.next/static/media/inicioP4.jpg"
-import inicioP5 from "../.next/static/media/inicioP5.png"
-import inicioP6 from "../.next/static/media/inicioP6.jpg"
-import inicioP7 from "../.next/static/media/inicioP7.png"
-import inicioP8 from "../.next/static/media/inicioP8.png"
-import inicioP9 from "../.next/static/media/inicioP9.jpg"
+import inicioP1 from "../public/inicioP1.jpg"
+import inicioP2 from "../public/inicioP2.jpg"
+import inicioP3 from "../public/inicioP3.jpg"
+import inicioP4 from "../public/inicioP4.jpg"
+import inicioP5 from "../public/inicioP5.png"
+import inicioP6 from "../public/inicioP6.jpg"
+import inicioP7 from "../public/inicioP7.png"
+import inicioP8 from "../public/inicioP8.png"
+
 
 export default function Cards() {
     return (
@@ -99,7 +99,7 @@ export default function Cards() {
                     </div>
                     <div className="card">
                         <div className="imgBx">
-                        <Image src={inicioP9} className="img-inicio" alt="logo" layout="fill"/>
+                        <Image src={inicioP4} className="img-inicio" alt="logo" layout="fill"/>
                         </div>
                         <div className="contenBx">
                             <div className="content">

@@ -6,7 +6,7 @@ import Footer from '../componentes/Footer'
 export default function Tienda() {
     return (
         <div>
-      <Script>
+      <Script id="shop" strategy="lazyOnload">
         {
         `/*<![CDATA[*/
             (function () {
