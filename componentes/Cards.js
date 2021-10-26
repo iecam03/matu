@@ -1,13 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
-import inicioP1 from "../public/inicioP1.jpg"
-import inicioP2 from "../public/inicioP2.jpg"
-import inicioP3 from "../public/inicioP3.jpg"
+import inicioP1 from "../public/inicioP1.png"
+import inicioP2 from "../public/inicioP2.png"
+import inicioP3 from "../public/inicioP3.jpeg"
 import inicioP4 from "../public/inicioP4.jpg"
 import inicioP5 from "../public/inicioP5.png"
-import inicioP6 from "../public/inicioP6.jpg"
+import inicioP6 from "../public/inicioP6.png"
 import inicioP7 from "../public/inicioP7.png"
-import inicioP8 from "../public/inicioP8.png"
+import inicioP8 from "../public/inicioP8.jpeg"
+import banner from "../public/banner.png"
 
 
 export default function Cards() {
@@ -169,6 +170,7 @@ export default function Cards() {
                     </div>
                 </div>
             </div>
+            <Image src={banner}  alt="logo" width="1090"/>
         </div>
     )
 }

@@ -39,6 +39,7 @@ export default function Diseño(props) {
       <meta name="description" content="" />
       <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
       <link rel="icon" href="/favicon.ico" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
       <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
       </Head>
@@ -51,12 +52,16 @@ export default function Diseño(props) {
               <li><a href="/Tienda" className=""  ref={itemTienda} >Matú-tienda</a></li>
               <li><Link href="/Hierbas" ><a className="" ref={itemHierbas} >Hierbas aromaticas</a></Link></li>
               <li><Link href="/Nosotros"><a className="" ref={itemNosotros} >Nosotros</a></Link></li>
-              <li><Link href="/Contacto"><a className="" ref={itemContacto} >Contacto</a></Link></li>
             </ul>
         </header>
       </section>
       <div className="children">
       {props.children}
+      </div>
+      <div>
+      <a href="https://api.whatsapp.com/send?phone=573045433075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+      <i class="fa fa-whatsapp my-float"></i>
+      </a>
       </div>
       </div>
     )
