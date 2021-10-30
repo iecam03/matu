@@ -8,6 +8,7 @@ import lavanda from "../public/lavanda.jpeg"
 import poleo from "../public/poleo.jpeg"
 import trigo from "../public/trigo.jpeg"
 import linaza from "../public/linaza.jpeg"
+import calendula from "../public/calendula.jpeg"
 
 export default function Aromas() {
     return (
@@ -17,6 +18,7 @@ export default function Aromas() {
                 <h3 className="titulo-seccion">TERAPIA DE FRIO Y CALOR</h3>
                 <h2 className="sub-titulo"> Nuestra colección de hierbas aromaticas incluye aquellas que ayudan en el alivio del dolorm el éstres y aquellas que ayudan a la relajación</h2>
                 <div className="imagenes-productos">
+                    <div className="one">
                     <div className="card">
                         <div className="imgBx">
                         <Image src={eucalipto}  alt="logo"  layout="fill"/>
@@ -64,6 +66,8 @@ export default function Aromas() {
                             </div>
                         </div>
                     </div>
+                    </div>
+                    <div className="two">
                     <div className="card">
                         <div className="imgBx">
                         <Image src={romero} className="img-inicio" alt="logo" layout="fill"/>
@@ -109,6 +113,8 @@ export default function Aromas() {
                             </div>
                         </div>
                     </div>
+                    </div>
+                    <div className="three">
                     <div className="card">
                         <div className="imgBx">
                         <Image src={trigo} className="img-inicio" alt="logo" layout="fill"/>
@@ -138,6 +144,20 @@ export default function Aromas() {
                                 </p>
                             </div>
                         </div>
+                    </div>
+                    <div className="card">
+                        <div className="imgBx">
+                        <Image src={calendula} className="img-inicio" alt="logo" layout="fill"/>
+                        </div>
+                        <div className="contenBx">
+                            <div className="content">
+                                <h3>CALÉNDULA</h3>
+                                <p>
+                                La caléndula es ideal para controlar los procesos inflamatorios, contribuye a regenerar la piel.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>

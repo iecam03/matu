@@ -9,6 +9,9 @@ import inicioP6 from "../public/inicioP6.png"
 import inicioP7 from "../public/inicioP7.png"
 import inicioP8 from "../public/inicioP8.jpeg"
 import banner from "../public/banner.png"
+import descuento1 from "../public/lavander-mint-knee-wrist-lumbar.png"
+import descuento2 from "../public/topboddie-spine-kits.png"
+import descuento3 from "../public/pantuflas.png"
 
 
 export default function Cards() {
@@ -37,6 +40,7 @@ export default function Cards() {
                                 </p>
                             </div>
                         </div>
+                        <div className="descuento"><Image src={descuento1}  alt="logo" /></div>
                     </div>
                     <div className="card">
                         <div className="imgBx">
@@ -58,6 +62,7 @@ export default function Cards() {
                                 </p>
                             </div>
                         </div>
+                        <div className="descuento"><Image src={descuento2}  alt="logo" /></div>
                     </div>
                     <div className="card">
                         <div className="imgBx">
@@ -75,6 +80,7 @@ export default function Cards() {
                                 </p>
                             </div>
                         </div>
+                        <div className="descuento"><Image src={descuento1}  alt="logo" /></div>
                     </div>
                     <div className="card">
                         <div className="imgBx">
@@ -97,6 +103,7 @@ export default function Cards() {
                                 </p>
                             </div>
                         </div>
+                        <div className="descuento"><Image src={descuento2}  alt="logo" /></div>
                     </div>
                     <div className="card">
                         <div className="imgBx">
@@ -114,6 +121,7 @@ export default function Cards() {
                                 </p>
                             </div>
                         </div>
+                        <div className="descuento"><Image src={descuento3}  alt="logo" /></div>
                     </div>
                     <div className="card">
                         <div className="imgBx">
@@ -132,6 +140,7 @@ export default function Cards() {
                                 </p>
                             </div>
                         </div>
+                        <div className="descuento"><Image src={descuento1}  alt="logo" /></div>
                     </div>
                     <div className="card">
                         <div className="imgBx">
@@ -149,6 +158,7 @@ export default function Cards() {
                                 </p>
                             </div>
                         </div>
+                        <div className="descuento"><Image src={descuento1}  alt="logo" /></div>
                     </div>
                     <div className="card">
                         <div className="imgBx">
@@ -167,8 +177,10 @@ export default function Cards() {
                                 </p>
                             </div>
                         </div>
+                        <div className="descuento"><Image src={descuento1}  alt="logo" /></div>
                     </div>
                 </div>
+                <button className="calltoaction"><a href="/Tienda">COMPRAR</a></button>
             </div>
             <Image src={banner}  alt="logo" width="1090"/>
         </div>

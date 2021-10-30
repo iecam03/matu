@@ -2,6 +2,8 @@ import React from 'react'
 import Layout from "../componentes/Layout"
 import Script from 'next/script'
 import Footer from '../componentes/Footer'
+import banner from "../public/banner-envios.png"
+import Image from "next/image"
 
 export default function Tienda() {
     return (
@@ -293,6 +295,9 @@ export default function Tienda() {
       </Script>
         <Layout>
         <h2 className="titulo-seccion">Nuestros productos a un click de distancia</h2>
+        <div className="banner-envios">
+        <Image src={banner} alt="Los envios tiene un costo de 7.500, por compras superiores a 75.000 el envio es gratis"/>
+        </div>
         <div id='collection-component-1634423189797'></div>
         <Footer/>
         </Layout>
