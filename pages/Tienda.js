@@ -298,7 +298,8 @@ export default function Tienda() {
         <div className="banner-envios">
         <Image src={banner} alt="Los envios tiene un costo de 7.500, por compras superiores a 75.000 el envio es gratis"/>
         </div>
-        <div id='collection-component-1634423189797'></div>
+        <div id='collection-component-1634423189797'>
+        </div>
         <Footer/>
         </Layout>
         </div>

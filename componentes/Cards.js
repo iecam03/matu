@@ -95,9 +95,7 @@ export default function Cards() {
                                 producto, lo cual permitirá utilizarlo mientras se realiza cualquier tipo de
                                 actividad.
                                 <br/>
-                                <br/>
                                 Contiene en su interior caléndula, limoncillo, romero, lavanda, poleo y trigo.
-                                <br/>
                                 <br/>
                                 Puedes utilizar el producto en caliente y en frio.
                                 </p>
