@@ -44,8 +44,9 @@ export default function Diseño(props) {
       <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
       </Head>
       <section>
+        <div className="bg-header">
         <header>
-          <a href="#"><Image src={Logo} className="logo" alt="logo" height="60" width="120"/></a>
+          <a href="/"><Image src={Logo} className="logo" alt="logo" height="60" width="120"/></a>
             <div className="toggle" onClick={menuToggle} ref={menu}></div>
             <ul className="navigation" ref={navigation}>
               <li><Link href="/"><a className="" ref={itemHome} >Inicio</a></Link></li>
@@ -54,6 +55,7 @@ export default function Diseño(props) {
               <li><Link href="/Nosotros"><a className="" ref={itemNosotros} >Nosotros</a></Link></li>
             </ul>
         </header>
+        </div>
       </section>
       <div className="children">
       {props.children}

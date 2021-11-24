@@ -24,7 +24,7 @@ export default function Aromas() {
                         <Image src={eucalipto}  alt="logo"  layout="fill"/>
                         </div>
                         <div className="contenBx">
-                            <div className="content">
+                            <div className="content1">
                                 <h3>EUCALIPTO</h3>
                                 <p>
                                         Es un descongestionante natural especial para afecciones respiratorias
@@ -41,7 +41,7 @@ export default function Aromas() {
                         <Image src={menta} className="img-inicio" alt="logo" layout="fill"/>
                         </div>
                         <div className="contenBx">
-                            <div className="content">
+                            <div className="content1">
                                 <h3>MENTA</h3>
                                 <p>
                                 Tiene un estimulante antiséptico.
@@ -56,7 +56,7 @@ export default function Aromas() {
                         <Image src={limoncillo} className="img-inicio" alt="logo" layout="fill"/>
                         </div>
                         <div className="contenBx">
-                            <div className="content">
+                            <div className="content1">
                                 <h3>LIMONCILLO</h3>
                                 <p>
                                 Alivia dolores estomacales,cólicos,reduce grasa corporal(celulitis),moretones,dolores de cabeza,dolores musculares y éstres.
@@ -73,7 +73,7 @@ export default function Aromas() {
                         <Image src={romero} className="img-inicio" alt="logo" layout="fill"/>
                         </div>
                         <div className="contenBx">
-                            <div className="content">
+                            <div className="content1">
                                 <h3>ROMERO</h3>
                                 <p>
                                 Previene el envejecimiento prematuro,Tiene efecto calmante y trabaja contra la fatiga,tristeza,ansiedad,dolores musculares y dolores digestivos secundarios al éstres.
@@ -86,7 +86,7 @@ export default function Aromas() {
                         <Image src={lavanda} className="img-inicio" alt="logo" layout="fill"/>
                         </div>
                         <div className="contenBx">
-                            <div className="content">
+                            <div className="content1">
                                 <h3>LAVANDA</h3>
                                 <p>
                                 Se usa para relajación.
@@ -103,7 +103,7 @@ export default function Aromas() {
                         <Image src={poleo} className="img-inicio" alt="logo" layout="fill"/>    
                         </div>
                         <div className="contenBx">
-                            <div className="content">
+                            <div className="content1">
                                 <h3>POLEO</h3>
                                 <p>
                                 Se usa tradicionalmente para los problemas respiratorios,las afecciones digestivas problemas de higado y vesicula.
@@ -120,7 +120,7 @@ export default function Aromas() {
                         <Image src={trigo} className="img-inicio" alt="logo" layout="fill"/>
                         </div>
                         <div className="contenBx">
-                            <div className="content">
+                            <div className="content1">
                                 <h3>TRIGO</h3>
                                 <p>
                                 Es uno de los componentes térmicos de nuestras terapias.
@@ -135,7 +135,7 @@ export default function Aromas() {
                         <Image src={linaza} className="img-inicio" alt="logo" layout="fill"/>
                         </div>
                         <div className="contenBx">
-                            <div className="content">
+                            <div className="content1">
                                 <h3>LINAZA</h3>
                                 <p>
                                 Su calor suave y húmedo favorece la cicatrización y retien el calor y frío de marena efectiva.
@@ -150,7 +150,7 @@ export default function Aromas() {
                         <Image src={calendula} className="img-inicio" alt="logo" layout="fill"/>
                         </div>
                         <div className="contenBx">
-                            <div className="content">
+                            <div className="content1">
                                 <h3>CALÉNDULA</h3>
                                 <p>
                                 La caléndula es ideal para controlar los procesos inflamatorios, contribuye a regenerar la piel.

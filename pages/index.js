@@ -5,6 +5,8 @@ import Footer from "../componentes/Footer"
 
 
 
+
+
 export default function Home() {
   return (
     <div>
@@ -15,7 +17,7 @@ export default function Home() {
                     loop="true"
                     playing="true"
                     className='react-player'
-                    url="https://www.youtube.com/watch?v=mANmaPQ4GXw"
+                    url="https://cyw-comunicarte.s3.amazonaws.com/matu.mp4"
                     width='100%'
                     height='100%'
                     controls="false"

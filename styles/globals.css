@@ -24,19 +24,31 @@ section{
   position: relative;
   width: 100%;
   padding: 50px;
+  padding-left: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 header{
   position: absolute;
-  top: 0;
+  top: 30px;
   left: 0;
   width: 100%;
-  padding: 20px 100px;
+  margin-top: 13px;
+  padding: 7px 100px;
   display: flex!important;;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
+  background-color: white;
+}
+.bg-header{
+  position: absolute;
+  background-color: #9fe3df;
+  width: 100%;
+  height: 145px;
+  color:#9fe3df;
+  z-index: 3;
 }
 header ul{
   position: relative;
@@ -164,6 +176,24 @@ height: 100%;
   transition-delay: 0s; */
   cursor: pointer;
 }
+.imagenes-productos .card .contenBx .content1{
+  position: relative;
+  padding: 30px;
+  z-index: 1;
+  transition: 0.5s;
+  transform: translateX(-300px);
+  transition-delay: 0s;
+}
+.imagenes-productos .card:hover .contenBx .content1 h3{
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: white;
+}
+.imagenes-productos .card:hover .contenBx .content1{
+  transform: translateX(0px);
+  transition-delay: 0.5s;
+}
 .imagenes-productos .card:hover .contenBx .content{
   transform: translateX(0px);
   transition-delay: 0.5s;
@@ -245,13 +275,23 @@ footer .social_icon li a:hover{
 @media(max-width:991px)
 {
   header{
-    padding: 20px;
+    padding: 7px;
+    
   }
   header ul{
     display: none;
   }
   section{
     padding: 50px;
+    padding-left: 0;
+  }
+  .bg-header{
+    position: absolute;
+    background-color: #9fe3df;
+    width: 100%;
+    height: 140px;
+    color:#9fe3df;
+    z-index: 3;
   }
   .toggle{
     position: relative;
@@ -411,6 +451,14 @@ footer .social_icon li a:hover{
     margin: 2px;
   }
 }
+.producto-container{
+  display: flex;
+  justify-content: center;
+}
+.shopify-buy-frame--product{
+  margin: 2px!important;
+}
+
 
 
 
