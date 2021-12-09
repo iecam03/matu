@@ -72,7 +72,7 @@ export default function Cards() {
                         </div>
                         <div className="contenBx">
                             <div className="content">
-                                <h3>LAVANDER EYE PILLOW<br/><h6>Ver Más</h6></h3>
+                                <h3>LAVENDER EYE PILLOW<br/><h6>Ver Más</h6></h3>
                                 {/* <p>
                                         Este producto tiene por dentro flores
                                         de lavanda la cual es flor sedante de
@@ -116,7 +116,7 @@ export default function Cards() {
                         </div>
                         <div className="contenBx">
                             <div className="content">
-                                <h3>SPLIPPERS FOOTREST<br/><h6>Ver Más</h6></h3>
+                                <h3>PANTUFLAS TERMICAS<br/><h6>Ver Más</h6></h3>
                                 {/* <p>
                                 Las Slippers Footrest, contienen en su
                                 interior hierbas, flores y semillas, ideales para

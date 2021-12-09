@@ -18,7 +18,10 @@ export default function Nosotros() {
             niveles de estrés. En nuestro portafolio también incluimos aceites
             esenciales, esencias de aceite e hidrosolubles, con los estándares
             más altos de calidad.
+            <br/><br/>
+            <spam>Encuéntranos de manera presencial en Bogotá-Cali-Cúcuta</spam>
           </p>
+          
           </div>
           <div className="img-nosotros">
           </div>

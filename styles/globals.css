@@ -35,7 +35,7 @@ header{
   left: 0;
   width: 100%;
   margin-top: 13px;
-  padding: 7px 100px;
+  padding: 5px 100px;
   display: flex!important;;
   justify-content: space-between;
   align-items: center;
@@ -44,12 +44,13 @@ header{
 }
 .bg-header{
   position: absolute;
-  background-color: #9fe3df;
+  background-color: #b9d2dc;
   width: 100%;
   height: 145px;
-  color:#9fe3df;
   z-index: 3;
+  padding-bottom: 35px;
 }
+
 header ul{
   position: relative;
   display: flex;
@@ -148,20 +149,34 @@ height: 100%;
   left: 0;
   width: 100%;
   height: 100%;
+  /* background-color: #9fe3df;
+  opacity: 0.7;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+  transform-origin: left;
+  transition-delay: 0.5s; */
+}
+.imagenes-productos .card .contenBx1::before{
+  content: "" ;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-color: #9fe3df;
-  opacity: 0.3;
+  opacity: 0.7;
   transform: scaleX(0);
   transition: transform 0.5s ease;
   transform-origin: left;
   transition-delay: 0.5s;
 }
-.imagenes-productos .card:hover .contenBx::before{
+.imagenes-productos .card:hover .contenBx1::before{
   transform: scaleX(1);
   transition: transform 0.5s ease;
   transform-origin: left;
   transition-delay: 0s;
 }
-.imagenes-productos .card .contenBx{
+.imagenes-productos .card .contenBx1{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -169,14 +184,11 @@ height: 100%;
 }
 .imagenes-productos .card .contenBx .content{
   position: relative;
-  padding: 30px;
+  padding: 25px;
   z-index: 1;
-  /* transition: 0.5s;
-  transform: translateX(-300px);
-  transition-delay: 0s; */
   cursor: pointer;
 }
-.imagenes-productos .card .contenBx .content1{
+.imagenes-productos .card .contenBx1 .content1{
   position: relative;
   padding: 30px;
   z-index: 1;
@@ -184,21 +196,16 @@ height: 100%;
   transform: translateX(-300px);
   transition-delay: 0s;
 }
-.imagenes-productos .card:hover .contenBx .content1 h3{
-  font-size: 1em;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: white;
-}
-.imagenes-productos .card:hover .contenBx .content1{
+
+.imagenes-productos .card:hover .contenBx1 .content1{
   transform: translateX(0px);
   transition-delay: 0.5s;
 }
-.imagenes-productos .card:hover .contenBx .content{
+.imagenes-productos .card:hover .contenBx1 .content1{
   transform: translateX(0px);
   transition-delay: 0.5s;
 }
-.imagenes-productos .card:hover .contenBx .content h3{
+.imagenes-productos .card:hover .contenBx1 .content1 h3{
   font-size: 1em;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -211,10 +218,10 @@ height: 100%;
   padding-top: 257px;
   text-shadow: 1px 1px 2px black;
 }
-.imagenes-productos .card .contenBx .content p{
+.imagenes-productos .card .contenBx1 .content1 p{
   font-size: 0.9em;
-  line-height: 1.4em;
-  font-weight: 300;
+  line-height: 1.5em;
+  font-weight: 600;
   color: black;
   
 }
@@ -222,9 +229,16 @@ height: 100%;
   font-size: 0.9em;
   line-height: 1.4em;
   font-weight: bold;
-  color: white;
-  text-decoration: underline;
+  color: black;
   text-shadow: none;
+}
+.imagenes-productos .card .contenBx .content h6:hover{
+  font-size: 0.9em;
+  line-height: 1.4em;
+  font-weight: bold;
+  color: #e90089;
+  text-shadow: none;
+  text-decoration: underline;
 }
 .inicio-productos{
   padding-bottom: 10px;
@@ -271,6 +285,28 @@ footer .social_icon li a:hover{
 .container-player{
   margin: 40px;
 }
+.medios-pago{
+  background-image: url(../public/mediospago.png);
+  background-color: #EBEBEB;
+  height:60px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  display: flex;
+  justify-content: center;
+}
+.Pago{
+  background-color:#EBEBEB;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.Pago spam{
+  text-align: center;
+  font-weight: 600;
+}
 
 @media(max-width:991px)
 {
@@ -280,6 +316,9 @@ footer .social_icon li a:hover{
   }
   header ul{
     display: none;
+  }
+  .header-logo{
+    padding-left: 36%;
   }
   section{
     padding: 50px;
@@ -293,6 +332,7 @@ footer .social_icon li a:hover{
     color:#9fe3df;
     z-index: 3;
   }
+  
   .toggle{
     position: relative;
     width: 30px;
@@ -356,17 +396,18 @@ footer .social_icon li a:hover{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 80px;
-  
+  margin: 20px;
 }
 .container-nosotros p{
-  width: 500px;
+  max-width: 600px;
   height: 100%;
   font-size: 24px;
-  padding: 10px;
-  background: url("../public/background.jpg");
-  padding-top:15%;
-  padding-bottom: 15%;
+  text-align: left;
+  margin:20px
+}
+.container-nosotros p spam{
+  font-size: 20px;
+  color: #e90089;
 }
 .title-nosotros{
   align-items: center;
@@ -376,7 +417,7 @@ footer .social_icon li a:hover{
   font-size: 32px;
 }
 .img-nosotros{
-  background: url("../public/nosotros.jpg");
+  background: url("../public/inicioP1.png");
   background-size: cover;
   width:400px;
   height: 500px;
@@ -414,7 +455,6 @@ footer .social_icon li a:hover{
   height: 60px;
   font-size: 20px;
   font-weight: 600;
-  border: solid 2px;
   color: black;
   background-color: rgba(233, 0, 137,.8);
 }
@@ -428,6 +468,7 @@ footer .social_icon li a:hover{
   width: 100%;
   text-align: center;
   padding: 5px;
+  margin-top: 10px
 }
 @media(max-width:360px){
   .container-nosotros p{
@@ -435,6 +476,7 @@ footer .social_icon li a:hover{
     font-size: 15px;
     padding-bottom: 20px;
   }
+  
   .img-nosotros{
     width: 300px;
     height: 250px;
@@ -458,6 +500,7 @@ footer .social_icon li a:hover{
 .shopify-buy-frame--product{
   margin: 2px!important;
 }
+
 
 
 

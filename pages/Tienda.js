@@ -57,7 +57,6 @@ export default function Tienda() {
         {`${topandlower}`}
       </Script>
         <Layout>
-        <h2 className="titulo-seccion">Nuestros productos a un click de distancia</h2>
         <div className="banner-envios">
         <Image src={banner} alt="Los envios tiene un costo de 7.500, por compras superiores a 75.000 el envio es gratis"/>
         </div>

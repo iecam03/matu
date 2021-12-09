@@ -46,7 +46,7 @@ export default function Diseño(props) {
       <section>
         <div className="bg-header">
         <header>
-          <a href="/"><Image src={Logo} className="logo" alt="logo" height="60" width="120"/></a>
+          <a className="header-logo" href="/"><Image src={Logo} className="logo" alt="logo" height="60" width="120"/></a>
             <div className="toggle" onClick={menuToggle} ref={menu}></div>
             <ul className="navigation" ref={navigation}>
               <li><Link href="/"><a className="" ref={itemHome} >Inicio</a></Link></li>

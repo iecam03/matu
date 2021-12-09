@@ -40,7 +40,7 @@ export let kit= `/*<![CDATA[*/
           "title": {
             "font-family": "Roboto, sans-serif",
             "font-size": "14px",
-            "color": "#9fe3df"
+            "color": "#000000"
           },
           "button": {
             "font-family": "Roboto, sans-serif",

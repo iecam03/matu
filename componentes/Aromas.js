@@ -23,7 +23,7 @@ export default function Aromas() {
                         <div className="imgBx">
                         <Image src={eucalipto}  alt="logo"  layout="fill"/>
                         </div>
-                        <div className="contenBx">
+                        <div className="contenBx1">
                             <div className="content1">
                                 <h3>EUCALIPTO</h3>
                                 <p>
@@ -40,7 +40,7 @@ export default function Aromas() {
                         <div className="imgBx">
                         <Image src={menta} className="img-inicio" alt="logo" layout="fill"/>
                         </div>
-                        <div className="contenBx">
+                        <div className="contenBx1">
                             <div className="content1">
                                 <h3>MENTA</h3>
                                 <p>
@@ -55,7 +55,7 @@ export default function Aromas() {
                         <div className="imgBx">
                         <Image src={limoncillo} className="img-inicio" alt="logo" layout="fill"/>
                         </div>
-                        <div className="contenBx">
+                        <div className="contenBx1">
                             <div className="content1">
                                 <h3>LIMONCILLO</h3>
                                 <p>
@@ -72,7 +72,7 @@ export default function Aromas() {
                         <div className="imgBx">
                         <Image src={romero} className="img-inicio" alt="logo" layout="fill"/>
                         </div>
-                        <div className="contenBx">
+                        <div className="contenBx1">
                             <div className="content1">
                                 <h3>ROMERO</h3>
                                 <p>
@@ -85,7 +85,7 @@ export default function Aromas() {
                         <div className="imgBx">
                         <Image src={lavanda} className="img-inicio" alt="logo" layout="fill"/>
                         </div>
-                        <div className="contenBx">
+                        <div className="contenBx1">
                             <div className="content1">
                                 <h3>LAVANDA</h3>
                                 <p>
@@ -102,7 +102,7 @@ export default function Aromas() {
                         <div className="imgBx">
                         <Image src={poleo} className="img-inicio" alt="logo" layout="fill"/>    
                         </div>
-                        <div className="contenBx">
+                        <div className="contenBx1">
                             <div className="content1">
                                 <h3>POLEO</h3>
                                 <p>
@@ -119,7 +119,7 @@ export default function Aromas() {
                         <div className="imgBx">
                         <Image src={trigo} className="img-inicio" alt="logo" layout="fill"/>
                         </div>
-                        <div className="contenBx">
+                        <div className="contenBx1">
                             <div className="content1">
                                 <h3>TRIGO</h3>
                                 <p>
@@ -134,7 +134,7 @@ export default function Aromas() {
                         <div className="imgBx">
                         <Image src={linaza} className="img-inicio" alt="logo" layout="fill"/>
                         </div>
-                        <div className="contenBx">
+                        <div className="contenBx1">
                             <div className="content1">
                                 <h3>LINAZA</h3>
                                 <p>
@@ -149,7 +149,7 @@ export default function Aromas() {
                         <div className="imgBx">
                         <Image src={calendula} className="img-inicio" alt="logo" layout="fill"/>
                         </div>
-                        <div className="contenBx">
+                        <div className="contenBx1">
                             <div className="content1">
                                 <h3>CALÉNDULA</h3>
                                 <p>

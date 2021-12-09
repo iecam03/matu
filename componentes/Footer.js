@@ -1,7 +1,15 @@
 import React from 'react'
 
+
 export default function Footer() {
     return (
+        <>
+        <div className="Pago">
+        <spam>Tu compra está respaldada por Payu®, la plataforma lider de Comercio Electrónico en Latinoamerica</spam>
+        <div className="medios-pago">
+                <spam></spam>
+        </div>
+        </div>
         <footer>
             <ul className="social_icon">
                 <li><a href="https://www.facebook.com/matuaromaterapia"><ion-icon name="logo-facebook"></ion-icon></a></li>
@@ -10,5 +18,6 @@ export default function Footer() {
             </ul>
             <p>©2021 Matúaromaterapia | All Rights Reserved</p>
         </footer>
+        </>
     )
 }
