@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import inicioP1 from "../public/inicioP1.png"
 import inicioP2 from "../public/inicioP2.png"
 import inicioP3 from "../public/inicioP3.png"
@@ -27,18 +28,7 @@ export default function Cards() {
                         </div>
                         <div className="contenBx">
                             <div className="content">
-                                <h3>TOP BODY WRAP<br/><h6>Ver Más</h6></h3>
-                                {/* <p>
-                                Este producto esta diseñado para colocarse alrededor del
-                                cuello, hombros y espalda superior. Contiene en su interior
-                                caléndula, limoncillo, romero, lavanda, poleo y trigo.
-                                <br/>
-                                <br/>
-                                Alivia dolores en hombros, cuello y pecho.
-                                <br/>
-                                <br/>
-                                Puedes utilizar el producto en caliente y en frio.
-                                </p> */}
+                                <h3>TOP BODY WRAP<br/><a href="/topbodywrap"><h6>Ver Más</h6></a></h3>
                             </div>
                         </div>
                         {/* <div className="descuento"><Image src={descuento2}  alt="logo" /></div> */}
@@ -50,17 +40,7 @@ export default function Cards() {
                         </div>
                         <div className="contenBx">
                             <div className="content">
-                                <h3>SPINE & ABDOMEN BELT<br/><h6>Ver Más</h6></h3>
-                                {/* <p>
-                                Este producto esta diseñado para aliviar dolores en espalda, cintura y
-                                abdomen, tiene dos tiras de velcro para sujetar de forma segura el
-                                producto, lo cual permitirá utilizarlo mientras se realiza cualquier tipo de
-                                actividad.
-                                <br/>
-                                Contiene en su interior caléndula, limoncillo, romero, lavanda, poleo y trigo.
-                                <br/>
-                                Puedes utilizar el producto en caliente y en frio.
-                                </p> */}
+                                <h3>SPINE & ABDOMEN BELT<br/><a href="/spineandabdomentbelt"><h6>Ver Más</h6></a></h3>
                             </div>
                         </div>
                         {/* <div className="descuento"><Image src={descuento2}  alt="logo" /></div> */}
@@ -72,18 +52,7 @@ export default function Cards() {
                         </div>
                         <div className="contenBx">
                             <div className="content">
-                                <h3>LAVENDER EYE PILLOW<br/><h6>Ver Más</h6></h3>
-                                {/* <p>
-                                        Este producto tiene por dentro flores
-                                        de lavanda la cual es flor sedante de
-                                        origen natural y semillas de linaza que
-                                        actúan como un conductor de calor y
-                                        frio, el producto esta diseñado para
-                                        ajustarse alrededor de los ojos, se
-                                        utiliza para reducir dolores de cabeza,
-                                        migraña, estrés, fatiga ocular y actúa 
-                                        como un sedante suave y natural para promover el sueño.
-                                </p> */}
+                                <h3>LAVENDER EYE PILLOW<br/><a href="/lavendereyepillow"><h6>Ver Más</h6></a></h3>
                             </div>
                         </div>
                         {/* <div className="descuento"><Image src={descuento1}  alt="logo" /></div> */}
@@ -95,14 +64,7 @@ export default function Cards() {
                         </div>
                         <div className="contenBx">
                             <div className="content">
-                                <h3>MINT PILLOW<br/><h6>Ver Más</h6></h3>
-                                {/* <p>
-                                El Mint Pillow es un producto que en su interior contiene
-                                semillas y hierbas trituradas de menta, eucalipto y
-                                linaza, su función principal es penetrar profundamente
-                                en las vías respiratorias y descongestionarlas, este
-                                producto esta diseñado para utilizarse frio o caliente.
-                                </p> */}
+                                <h3>MINT PILLOW<br/><a href="/mintpillow"><h6>Ver Más</h6></a></h3>
                             </div>
                         </div>
                         {/* <div className="descuento"><Image src={descuento1}  alt="logo" /></div> */}
@@ -116,14 +78,7 @@ export default function Cards() {
                         </div>
                         <div className="contenBx">
                             <div className="content">
-                                <h3>PANTUFLAS TERMICAS<br/><h6>Ver Más</h6></h3>
-                                {/* <p>
-                                Las Slippers Footrest, contienen en su
-                                interior hierbas, flores y semillas, ideales para
-                                mejorar la circulación y desinflamar, proporciona
-                                un descanso inmediato, pueden utilizare en
-                                caliente o en frío.
-                                </p> */}
+                                <h3>PANTUFLAS TÉRMICAS<br/><a href="/pantuflastermicas"><h6>Ver Más</h6></a></h3>
                             </div>
                         </div>
                         {/* <div className="descuento"><Image src={descuento3}  alt="logo" /></div> */}
@@ -135,15 +90,7 @@ export default function Cards() {
                         </div>
                         <div className="contenBx">
                             <div className="content">
-                                <h3>LUMBAR PACK<br/><h6>Ver Más</h6></h3>
-                                {/* <p>
-                                El Lumbar Pack, es una almohada
-                                multifuncional que se puede utilizar en cualquier
-                                parte del cuerpo, es ideal para trabajar, cólicos,
-                                dolores lumbares, cervicales, dolores en los
-                                hombros, dolores en las articulaciones y dolores
-                                musculares.
-                                </p> */}
+                                <h3>LUMBAR PACK<br/><a href="/lumbarpack"><h6>Ver Más</h6></a></h3>
                             </div>
                         </div>
                         {/* <div className="descuento"><Image src={descuento1}  alt="logo" /></div> */}
@@ -155,14 +102,8 @@ export default function Cards() {
                         </div>
                         <div className="contenBx">
                             <div className="content">
-                                <h3>KNEE PACK<br/><h6>Ver Más</h6></h3>
-                                {/* <p>
-                                El Knee Pack, es una almohada diseñada para
-                                aliviar dolores producidos en la rodilla, el tobillo y
-                                el codo, trae dos tiras de velcro para ajustar el
-                                producto a la zona deseada sin que este se
-                                caiga, puedes utilizarlo en caliente y en frío.
-                                </p> */}
+                                <h3>KNEE PACK<br/><a href="/kneepack"><h6>Ver Más</h6></a></h3>
+                                
                             </div>
                         </div>
                         {/* <div className="descuento"><Image src={descuento1}  alt="logo" /></div> */}
@@ -174,15 +115,7 @@ export default function Cards() {
                         </div>
                         <div className="contenBx">
                             <div className="content">
-                                <h3>WRIST PACK<br/><h6>Ver Más</h6></h3>
-                                {/* <p>
-                                Este producto contiene una mezcla de hierbas,
-                                flores y semillas antiinflamatorias, es ideal para
-                                tratar el síndrome del túnel carpiano, artritis,
-                                tendinitis, retracción muscular, inflamación,
-                                quemaduras o cualquier tipo de dolor en la mano o
-                                la muñeca, lo puedes utilizar en caliente o en frio.
-                                </p> */}
+                                <h3>WRIST PACK<br/><a href="/wristpack"><h6>Ver Más</h6></a></h3>
                             </div>
                         </div>
                         {/* <div className="descuento"><Image src={descuento1}  alt="logo" /></div> */}

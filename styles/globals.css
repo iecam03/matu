@@ -500,7 +500,37 @@ footer .social_icon li a:hover{
 .shopify-buy-frame--product{
   margin: 2px!important;
 }
-
+.producto-pag{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  padding:10px;
+  flex-wrap: wrap;
+}
+.imagen-p-page{
+  border: solid 2px #e90089;
+  
+}
+.descripcion{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 400px;
+  padding-top: 15px;
+  margin-left: 25px;
+}
+.descripcion p{
+  font-size: 1.5em;
+  text-align: start;
+}
+.descripcion h3{
+  font-size: 2em;
+}
+.btn-only{
+  text-align: center;
+  margin: 15px;
+  
+}
 
 
 
