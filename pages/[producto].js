@@ -21,7 +21,7 @@ import Knee, {kneeonlybtn} from "../utils/knee"
 import Wrist, {wristonlybtn} from "../utils/wrist"
 import Script from 'next/script'
 
-export default function producto() {
+export default function Producto() {
     const router = useRouter();
     console.log(router.query.producto);
     return (
