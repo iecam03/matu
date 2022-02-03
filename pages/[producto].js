@@ -93,7 +93,7 @@ export default function Producto() {
             <div className="container  carousel container-car">
               <Slider {...settings}>
                 {cartop.map((i) => (
-                  <div className="card-wrapper">
+                  <div className="card-wrapper" key={i}>
                     <div className="card">
                       <div className="imagen-p-page">
                         <Image
@@ -140,7 +140,7 @@ export default function Producto() {
             <div className="container  carousel container-car">
               <Slider {...settings}>
                 {carspine.map((i) => (
-                  <div className="card-wrapper">
+                  <div className="card-wrapper" key={i}>
                     <div className="card">
                       <div className="imagen-p-page">
                         <Image
@@ -188,7 +188,7 @@ export default function Producto() {
             <div className="container  carousel container-car">
               <Slider {...settings}>
                 {carlavender.map((i) => (
-                  <div className="card-wrapper">
+                  <div className="card-wrapper" key={i}>
                     <div className="card">
                       <div className="imagen-p-page">
                         <Image
@@ -235,7 +235,7 @@ export default function Producto() {
             <div className="container  carousel container-car">
               <Slider {...settings}>
                 {carmint.map((i) => (
-                  <div className="card-wrapper">
+                  <div className="card-wrapper" key={i}>
                     <div className="card">
                       <div className="imagen-p-page">
                         <Image
@@ -280,7 +280,7 @@ export default function Producto() {
             <div className="container  carousel container-car">
               <Slider {...settings}>
                 {carpantuflas.map((i) => (
-                  <div className="card-wrapper">
+                  <div className="card-wrapper" key={i}>
                     <div className="card">
                       <div className="imagen-p-page">
                         <Image
@@ -393,7 +393,7 @@ export default function Producto() {
             <div className="container  carousel container-car">
               <Slider {...settings}>
                 {carwrist.map((i) => (
-                  <div className="card-wrapper">
+                  <div className="card-wrapper" key={i}>
                     <div className="card">
                       <div className="imagen-p-page">
                         <Image
@@ -437,7 +437,7 @@ export default function Producto() {
             <div className="container  carousel container-car">
               <Slider {...settings}>
                 {carkit.map((i) => (
-                  <div className="card-wrapper">
+                  <div className="card-wrapper" key={i}>
                     <div className="card">
                       <div className="imagen-p-page">
                         <Image
