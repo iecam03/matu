@@ -12,6 +12,7 @@ export default function Diseño(props) {
     let itemHierbas= useRef(null)
     let itemNosotros= useRef(null)
     let itemContacto = useRef(null)
+    let itemBeneficios = useRef(null)
      const menuToggle = ()=>{
       menu.current.classList.toggle("active")
       navigation.current.classList.toggle("active")
@@ -28,6 +29,8 @@ export default function Diseño(props) {
         itemNosotros.current.classList.toggle("active")
       }else if(window.location.pathname == "/Contacto"){
         itemContacto.current.classList.toggle("active")
+      }else if(window.location.pathname == "/Beneficios"){
+        itemBeneficios.current.classList.toggle("active")
       }
     })
     
@@ -52,7 +55,9 @@ export default function Diseño(props) {
               <li><Link href="/"><a className="" ref={itemHome} >Inicio</a></Link></li>
               <li><a href="/Tienda" className=""  ref={itemTienda} >Matú-tienda</a></li>
               <li><Link href="/Hierbas" ><a className="" ref={itemHierbas} >Hierbas aromaticas</a></Link></li>
+              <li><Link href="/Beneficios"><a className="" ref={itemBeneficios} >Beneficios</a></Link></li>
               <li><Link href="/Nosotros"><a className="" ref={itemNosotros} >Nosotros</a></Link></li>
+              
             </ul>
         </header>
         </div>

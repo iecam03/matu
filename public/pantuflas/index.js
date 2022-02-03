@@ -1,0 +1,1 @@
+export {default as pantuflas1} from "./image0.png"

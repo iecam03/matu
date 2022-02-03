@@ -16,6 +16,9 @@ import Herb, {herb} from "../utils/herb"
 import Lumbar,{ lumbar } from '../utils/lumbar'
 import Manta ,{manta} from "../utils/manta"
 import TopandLower, {topandlower} from "../utils/topandlower"
+import Back, {back} from "../utils/back"
+import Shoulder, {shoulder} from "../utils/shoulder"
+import Body, {body} from "../utils/body"
 
 export default function Tienda() {
     return (
@@ -56,6 +59,15 @@ export default function Tienda() {
       <Script id="topandlower" strategy="lazyOnload">
         {`${topandlower}`}
       </Script>
+      <Script id="back" strategy="lazyOnload">
+        {`${back}`}
+      </Script>
+      <Script id="shoulder" strategy="lazyOnload">
+        {`${shoulder}`}
+      </Script>
+      <Script id="body" strategy="lazyOnload">
+        {`${body}`}
+      </Script>
         <Layout>
         <div className="banner-envios">
         <Image src={banner} alt="Los envios tiene un costo de 7.500, por compras superiores a 75.000 el envio es gratis"/>
@@ -83,6 +95,13 @@ export default function Tienda() {
         <div className="producto-container">
         <div id='product-component-1637734520071'></div>
         <div id='product-component-1637734682848'></div>
+        </div>
+        <div className="producto-container">
+        <div id='product-component-1643896748145'></div>
+        <div id='product-component-1643897639097'></div>
+        </div>
+        <div className="producto-container">
+        <div id='product-component-1643897967625'></div>
         </div>
         <Footer/>
         </Layout>

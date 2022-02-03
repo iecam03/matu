@@ -1,0 +1,1 @@
+export {default as mint1} from "./image1.png"

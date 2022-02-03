@@ -1,0 +1,1 @@
+export {default as wrist1} from "./image4.png"

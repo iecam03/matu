@@ -15,7 +15,7 @@ export default function Aromas() {
         <div>
             <div className="inicio-productos">
             <div className="inicio-productos">
-                <h3 className="titulo-seccion">TERAPIA DE FRIO Y CALOR</h3>
+                <h3 className="titulo-seccion">AROMATERAPIA</h3>
                 <h2 className="sub-titulo"> Nuestra colección de hierbas aromaticas incluye aquellas que ayudan en el alivio del dolorm el éstres y aquellas que ayudan a la relajación</h2>
                 <div className="imagenes-productos">
                     <div className="one">
@@ -26,12 +26,14 @@ export default function Aromas() {
                         <div className="contenBx1">
                             <div className="content1">
                                 <h3>EUCALIPTO</h3>
+                                <br/>
                                 <p>
                                         Es un descongestionante natural especial para afecciones respiratorias
                                         <br/>
+                                        <br/>
                                         Tiene propiedades analgésicas,antibacterianas y antiinflamatorias.
                                         <br/>
-                                        Ayuda a sanar lesiones de la piel.
+                                        
                                 </p>
                             </div>
                         </div>
@@ -44,9 +46,8 @@ export default function Aromas() {
                             <div className="content1">
                                 <h3>MENTA</h3>
                                 <p>
-                                Tiene un estimulante antiséptico.
                                 <br/>
-                                El aroma mentolado disipa mareos,alivia dolores de cabeza y ayuda en casos de congestión nasal.
+                                Es ideal para disipar mareos, alivia dolores de cabeza y ayuda en casos de congestión nasal.
                                 </p>
                             </div>
                         </div>
@@ -58,10 +59,12 @@ export default function Aromas() {
                         <div className="contenBx1">
                             <div className="content1">
                                 <h3>LIMONCILLO</h3>
-                                <p>
-                                Alivia dolores estomacales,cólicos,reduce grasa corporal(celulitis),moretones,dolores de cabeza,dolores musculares y éstres.
                                 <br/>
-                                Estimulante para la lactancia.
+                                <br/>
+                                <p>
+                                Alivia dolores estomacales,cólicos,<br/>moretones,dolores de cabeza,dolores musculares y éstres.
+                                <br/>
+                                
                                 </p>
                             </div>
                         </div>
@@ -75,8 +78,9 @@ export default function Aromas() {
                         <div className="contenBx1">
                             <div className="content1">
                                 <h3>ROMERO</h3>
+                                <br/>
                                 <p>
-                                Previene el envejecimiento prematuro,Tiene efecto calmante y trabaja contra la fatiga,tristeza,ansiedad,dolores musculares y dolores digestivos secundarios al éstres.
+                                Provee un efecto calmante y trabaja contra la fatiga,trsiteza,ansiedad,dolores musculares y dolores digestivos.
                                 </p>
                             </div>
                         </div>
@@ -88,12 +92,9 @@ export default function Aromas() {
                         <div className="contenBx1">
                             <div className="content1">
                                 <h3>LAVANDA</h3>
+                                <br/>
                                 <p>
-                                Se usa para relajación.
-                                <br/>
-                                Ayuda a atenuar comportamientos agitados.
-                                <br/>
-                                Es particularmente efectiva para el alivio temporal del dolor lumbar.
+                                Ideal para la ralajación, ayuda a disminuir el estrés, promueve el sueño y la relajación.
                                 </p>
                             </div>
                         </div>
@@ -105,10 +106,9 @@ export default function Aromas() {
                         <div className="contenBx1">
                             <div className="content1">
                                 <h3>POLEO</h3>
-                                <p>
-                                Se usa tradicionalmente para los problemas respiratorios,las afecciones digestivas problemas de higado y vesicula.
                                 <br/>
-                                Es un diurético,antibacterial y estimulante de origen natural.
+                                <p>
+                                Se usa tradicionalmente para los problemas respiratorios y las afecciones estomacales.
                                 </p>
                             </div>
                         </div>
@@ -138,9 +138,11 @@ export default function Aromas() {
                             <div className="content1">
                                 <h3>LINAZA</h3>
                                 <p>
-                                Su calor suave y húmedo favorece la cicatrización y retien el calor y frío de marena efectiva.
+                                Su calor suave y húmedo favorece la cicatrización y retiene el calor y frío de marena efectiva.
                                 <br/>
                                 Por su tamaño pequeño y peso ligero se acomoda a las articulaciones de la cara.
+                                <br/>
+                                (Encuentralo en nuestro Lavender Eye Pillow)
                                 </p>
                             </div>
                         </div>

@@ -1,0 +1,1 @@
+export {default as lavender1} from "./image1.png"
