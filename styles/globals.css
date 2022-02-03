@@ -608,7 +608,7 @@ footer .social_icon li a:hover{
   font-family: serif;
 }
 
-@media (max-width: 380px) { 
+@media (max-width: 800px) { 
   .container-beneficios{
     display: flex;
     flex-direction: column;

@@ -121,7 +121,7 @@ export default function Producto() {
                 poleo y trigo.
                 <br />
                 Alivia dolores en hombros, cuello y pecho, puede utilizarse
-                caliente o frio.
+                caliente o frío.
               </p>
               <div className="btn-only">
                 <div id="product-component-1639109187201"></div>
@@ -211,7 +211,7 @@ export default function Producto() {
               <p>
                 Este producto tiene por dentro flores de lavanda la cual es una
                 flor sedante de origen natural y semillas de linaza que actúan
-                como un conductor de calor y frio, el producto esta diseñado
+                como un conductor de calor y frío, el producto esta diseñado
                 para ajustarse alrededor de los ojos, se utiliza para reducir
                 dolores de cabeza, migraña, estrés, insomnio,fatiga ocular y
                 actúa como un sedante suave y natural para promover el sueño.
@@ -258,10 +258,10 @@ export default function Producto() {
               <p>
                 El Mint Pillow es un producto que en su interior contiene
                 semillas y hierbas trituradas de menta, eucalipto y linaza, su
-                función principal es penetrar profundamente en las vias
+                función principal es penetrar profundamente en las vías
                 respiratorias y descongestionarlas.
                 <br />
-                Este producto esta diseñado para utilizarse frio o caliente.
+                Este producto esta diseñado para utilizarse frío o caliente.
               </p>
               <div className="btn-only">
                 <div id="product-component-1639112382209"></div>
@@ -420,7 +420,7 @@ export default function Producto() {
                 inflamación, quemaduras o cualquier tipo de dolor en la mano o
                 la muñeca.
                 <br />
-                El producto está diseñado para utilizarlo en caliente o en frio
+                El producto está diseñado para utilizarlo en caliente o en frío
               </p>
               <div className="btn-only">
                 <div id="product-component-1639113618284"></div>
