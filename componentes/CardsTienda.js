@@ -9,7 +9,7 @@ import inicioP6 from "../public/inicioP6.png";
 import inicioP7 from "../public/inicioP7.png";
 import inicioP8 from "../public/inicioP8.png";
 import inicioP9 from "../public/inicioP9.png";
-import {herb2} from "../public/herb/index";
+import herb2 from "../public/herb/image3.jpeg";
 import { manta1 } from "../public/manta/index";
 import banner from "../public/banner.png";
 import { topandlower1 } from "../public/topandlower";
@@ -230,7 +230,7 @@ export default function CardsTienda() {
                             <Image
                                 src={herb2}
                                 className="img-inicio"
-                                alt="logo"
+                                alt="herb pack"
                                 layout="fill"
                             />
                         </div>
