@@ -5,6 +5,22 @@ export default function Beneficios() {
   return (
     <Layout>
     <div className='beneficios'>
+    <div className='container-beneficios'>
+      <h1>Frío</h1>
+      <li>Reduce Inflamación</li>
+      <li>Dolor de Cabeza</li>
+      <li>Moretones</li>
+      <li>Quemaduras</li>
+      <li>Picaduras de Insectos</li>
+      <li>Dolor de Muela</li>
+      <li>Dolores de Pié</li>
+      <li>Insolación</li>
+      <li>Fiebre</li>
+      <li>Insomnio</li>
+      <li>Fatiga Ocular</li>
+      <li>Hinchazón</li>
+      <li>Urticaria</li>
+      </div>
       <div className='container-beneficios'>
         <h1>Caliente</h1>
         <li>Artritis</li>
@@ -27,22 +43,7 @@ export default function Beneficios() {
         <li>Síndrome del tunel Carpiano</li>
         <li>Epicondilitis (codo de tenista o golfista)</li>
       </div>
-      <div className='container-beneficios'>
-      <h1>Frío</h1>
-      <li>Reduce Inflamación</li>
-      <li>Dolor de Cabeza</li>
-      <li>Moretones</li>
-      <li>Quemaduras</li>
-      <li>Picaduras de Insectos</li>
-      <li>Dolor de Muela</li>
-      <li>Dolores de Pié</li>
-      <li>Insolación</li>
-      <li>Fiebre</li>
-      <li>Insomnio</li>
-      <li>Fatiga Ocular</li>
-      <li>Hinchazón</li>
-      <li>Urticaria</li>
-      </div>
+      
     </div>
     </Layout>
   ) 

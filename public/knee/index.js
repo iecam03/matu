@@ -1,0 +1,1 @@
+export {default as knee} from "./inicioP5.png"

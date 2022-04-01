@@ -16,7 +16,9 @@ export default function Aromas() {
             <div className="inicio-productos">
             <div className="inicio-productos">
                 <h3 className="titulo-seccion">AROMATERAPIA</h3>
-                <h2 className="sub-titulo"> Nuestra colección de hierbas aromaticas incluye aquellas que ayudan en el alivio del dolorm el éstres y aquellas que ayudan a la relajación</h2>
+                <h2 className="sub-titulo"> Nuestra colección de hierbas aromáticas incluye aquellas que ayudan en el alivio del dolor el estrés y aquellas que ayudan a la relajación</h2>
+                <br/>
+                <br/>
                 <div className="imagenes-productos">
                     <div className="one">
                     <div className="card">
@@ -80,7 +82,7 @@ export default function Aromas() {
                                 <h3>ROMERO</h3>
                                 <br/>
                                 <p>
-                                Provee un efecto calmante y trabaja contra la fatiga,trsiteza,ansiedad,dolores musculares y dolores digestivos.
+                                Provee un efecto calmante y trabaja contra la fatiga,tristeza,ansiedad,dolores musculares y dolores digestivos.
                                 </p>
                             </div>
                         </div>
@@ -94,7 +96,7 @@ export default function Aromas() {
                                 <h3>LAVANDA</h3>
                                 <br/>
                                 <p>
-                                Ideal para la ralajación, ayuda a disminuir el estrés, promueve el sueño y la relajación.
+                                Está flor es ideal para la relación ayuda a disminuir el estrés y actúa como un sedante suave y promueve el sueño. 
                                 </p>
                             </div>
                         </div>
@@ -125,7 +127,7 @@ export default function Aromas() {
                                 <p>
                                 Es uno de los componentes térmicos de nuestras terapias.
                                 <br/>
-                                Nuestro trigo orgánico,tratando sin químicos,es el que mantiene la temperatura y se acomoda fácilmente al cuerpo.
+                                Nuestro trigo orgánico,tratado sin químicos,es el que mantiene la temperatura y se acomoda fácilmente al cuerpo.
                                 </p>
                             </div>
                         </div>
@@ -138,9 +140,9 @@ export default function Aromas() {
                             <div className="content1">
                                 <h3>LINAZA</h3>
                                 <p>
-                                Su calor suave y húmedo favorece la cicatrización y retiene el calor y frío de marena efectiva.
+                                Su calor suave y húmedo favorece la cicatrización y retiene el calor y frío de manera efectiva.
                                 <br/>
-                                Por su tamaño pequeño y peso ligero se acomoda a las articulaciones de la cara.
+                                Por su tamaño pequeño y peso ligero se acomoda a las articulaciones del rostro. 
                                 <br/>
                                 (Encuentralo en nuestro Lavender Eye Pillow)
                                 </p>

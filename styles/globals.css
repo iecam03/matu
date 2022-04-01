@@ -113,7 +113,14 @@ header ul li a.active{
   align-items: center;
   flex-wrap: wrap;
   background-color: transparent;
+  flex-direction: row;
   
+}
+.d-card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .imagenes-productos .card{
   position: relative;
@@ -223,6 +230,7 @@ height: 100%;
   line-height: 1.5em;
   font-weight: 600;
   color: black;
+  text-align: left;
   
 }
 .imagenes-productos .card .contenBx .content h6{
@@ -246,6 +254,7 @@ height: 100%;
 }
 .sub-titulo{
   text-align: center;
+  font-weight: 400;
   margin-left: 30px!important;
   margin-right: 30px!important;
 }
@@ -470,33 +479,7 @@ footer .social_icon li a:hover{
   padding: 5px;
   margin-top: 10px
 }
-@media(max-width:400px){
-  .container-nosotros p{
-    width: 280px;
-    font-size: 15px;
-    padding-bottom: 20px;
-  }
-  .container-nosotros p spam{
-    font-size: 15px;
-  }
-  
-  .img-nosotros{
-    width: 300px;
-    height: 400px;
-    margin-bottom: 10px;
-  }
-  .title-nosotros{
-    align-items: center;
-    text-align: center;
-    margin-top: 10px;
-    color: #e90089;
-    font-size: 32px;
-    padding-top: 20px;
-  }
-  .container-nosotros{
-    margin: 2px;
-  }
-}
+
 .producto-container{
   display: flex;
   justify-content: center;
@@ -515,14 +498,15 @@ footer .social_icon li a:hover{
 .descripcion{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   width: 400px;
   padding-top: 15px;
-  margin-left: 42px;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 .descripcion p{
-  font-size: 1.5em;
-  text-align: start;
+  font-size: 22px;
+  text-align: justify;
 }
 .descripcion h3{
   font-size: 2em;
@@ -592,13 +576,20 @@ footer .social_icon li a:hover{
   justify-content: center;
   margin-top: 15px;
   flex-wrap: wrap;
+  background-image: url(../public/web.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  
 }
 .container-beneficios{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 30px 30px 0 30px;
-  font-size: 24px;
+  margin: 100px 30px 30px 30px;
+  font-size: 20px;
+  text-align: center;
 }
 .container-beneficios li{
   list-style: none;
@@ -608,7 +599,7 @@ footer .social_icon li a:hover{
   font-family: serif;
 }
 
-@media (max-width: 800px) { 
+@media (max-width: 765px) { 
   .container-beneficios{
     display: flex;
     flex-direction: column;
@@ -621,6 +612,68 @@ footer .social_icon li a:hover{
     justify-content: flex-start;
     margin-top: 15px;
     flex-wrap: wrap;
+    background-image: url(../public/web.svg);
+    background-repeat: no-repeat;
+  background-size: auto;
+  }
+  
+}
+@media (max-width: 1024px) {
+  .imagenes-productos .card{
+    position: relative;
+    width: 150px;
+    height: 200px;
+    margin: 15px;
+    overflow: hidden;
+    z-index: 1;
+    
+  }
+ }
+
+@media(max-width:415px){
+  .container-nosotros p{
+    width: 280px;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .container-nosotros p spam{
+    font-size: 15px;
+  }
+  
+  .img-nosotros{
+    width: 300px;
+    height: 400px;
+    margin-bottom: 10px;
+  }
+  .title-nosotros{
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    color: #e90089;
+    font-size: 32px;
+    padding-top: 20px;
+  }
+  .container-nosotros{
+    margin: 2px;
+  }
+  .imagenes-productos .card .contenBx .content h3{
+    font-size: 0.5em;
+    font-weight: 600;
+    color: white;
+    padding-top: 100px;
+    text-shadow: 1px 1px 2px black;
+  }
+  .imagenes-productos .card{
+    position: relative;
+    width: 118px;
+    height: 175px;
+    margin: 15px;
+    overflow: hidden;
+    z-index: 1;
+    
+  }
+  .descripcion p{
+    font-size: 16px;
   }
 }
 
