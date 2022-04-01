@@ -579,6 +579,7 @@ footer .social_icon li a:hover{
   background-image: url(../public/web.svg);
   background-repeat: no-repeat;
   background-size: cover;
+
   
   
   
@@ -586,13 +587,14 @@ footer .social_icon li a:hover{
 .container-beneficios{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin: 100px 30px 30px 30px;
   font-size: 20px;
   text-align: center;
 }
 .container-beneficios li{
   list-style: none;
+  
 }
 .container-beneficios h1{
   width: 100%;
