@@ -20,8 +20,8 @@ import { wrist1 } from "../public/wrist/index";
 import inicioP9 from "../public/inicioP9.png";
 import { kit1, kit2, kit3, kit4 } from "../public/kit/index";
 import {herb1,herb2} from "../public/herb/index"
-import { manta1,manta2 } from "../public/manta/index";
-import { topandlower1,topandlower2 } from "../public/topandlower/index";
+import { manta1,manta2 } from "../public/mantatermica/index";
+import { topandlower1,topandlower2 } from "../public/topandlowerimagenes/index";
 import { shoulder1,shoulder2 } from "../public/Shoulder/index";
 import { back1,back2,back3 } from "../public/backbelt/index";
 import {body1,body2,body3,body4} from "../public/body therapy/index"
