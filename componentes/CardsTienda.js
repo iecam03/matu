@@ -10,11 +10,11 @@ import inicioP7 from "../public/inicioP7.png";
 import inicioP8 from "../public/inicioP8.png";
 import inicioP9 from "../public/inicioP9.png";
 import herb2 from "../public/herb/image3.jpeg";
-import { manta1 } from "../public/manta/index";
+import { manta1 } from "../public/mantatermica/index";
 import banner from "../public/banner.png";
-import { topandlower1 } from "../public/topandlower";
+import { topandlower1 } from "../public/topandlowerimagenes/index";
 import {shoulder1} from "../public/Shoulder/index"
-import { back1 } from "../public/backbelt";
+import { back1 } from "../public/backbelt/index";
 import {body1} from "../public/body therapy/index"
 
 
