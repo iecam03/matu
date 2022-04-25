@@ -42,6 +42,7 @@ export default function CardsTienda() {
                                 <h3>
                                     TOP BODY WRAP
                                     <br />
+                                    <h4>Precio: $120.000</h4>
                                     <a href="/topbodywrap">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -64,6 +65,7 @@ export default function CardsTienda() {
                                 <h3>
                                     SPINE & ABDOMEN BELT
                                     <br />
+                                    <h4>Precio: $120.000</h4>
                                     <a href="/spineandabdomentbelt">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -82,6 +84,7 @@ export default function CardsTienda() {
                                 <h3>
                                     LAVENDER EYE PILLOW
                                     <br />
+                                    <h4>Precio: $60.000</h4>
                                     <a href="/lavendereyepillow">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -104,6 +107,7 @@ export default function CardsTienda() {
                                 <h3>
                                     MINT PILLOW
                                     <br />
+                                    <h4>Precio: $60.000</h4>
                                     <a href="/mintpillow">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -128,6 +132,7 @@ export default function CardsTienda() {
                                 <h3>
                                     PREMIUM TREATMENT SET
                                     <br />
+                                    <h4>Precio: $300.000</h4>
                                     <a href="/premiumset">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -150,6 +155,7 @@ export default function CardsTienda() {
                                 <h3>
                                     PANTUFLAS TÉRMICAS
                                     <br />
+                                    <h4>Precio: $200.000</h4>
                                     <a href="/pantuflastermicas">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -172,6 +178,7 @@ export default function CardsTienda() {
                                 <h3>
                                     LUMBAR PACK
                                     <br />
+                                    <h4>Precio: $80.000</h4>
                                     <a href="/lumbarpack">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -194,6 +201,7 @@ export default function CardsTienda() {
                                 <h3>
                                     KNEE PACK
                                     <br />
+                                    <h4>Precio: $80.000</h4>
                                     <a href="/kneepack">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -218,6 +226,7 @@ export default function CardsTienda() {
                                 <h3>
                                     WRIST PACK
                                     <br />
+                                    <h4>Precio: $80.000</h4>
                                     <a href="/wristpack">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -239,6 +248,7 @@ export default function CardsTienda() {
                                 <h3>
                                     HERB PACK
                                     <br />
+                                    <h4>Precio: $70.000</h4>
                                     <a href="/herbpack">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -260,6 +270,7 @@ export default function CardsTienda() {
                                 <h3>
                                     MANTA TÉRMICA
                                     <br />
+                                    <h4>Precio: $320.000</h4>
                                     <a href="/manta">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -281,6 +292,7 @@ export default function CardsTienda() {
                                 <h3>
                                     TOP AND LOWER
                                     <br />
+                                    <h4>Precio: $320.000</h4>
                                     <a href="/topandlower">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -288,8 +300,9 @@ export default function CardsTienda() {
                             </div>
                         </div>
                     </div>
-                    
                     </div>
+                    
+                    
                     <div className="d-card">
                     <div className="card">
                         <div className="imgBx">
@@ -305,6 +318,7 @@ export default function CardsTienda() {
                                 <h3>
                                     SHOULDER PACK
                                     <br />
+                                    <h4>Precio: $110.000</h4>
                                     <a href="/shoulder">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -326,6 +340,7 @@ export default function CardsTienda() {
                                 <h3>
                                     BACK AND ABDOMENT BELT
                                     <br />
+                                    <h4>Precio: $80.000</h4>
                                     <a href="/backandabdoment">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -347,6 +362,7 @@ export default function CardsTienda() {
                                 <h3>
                                     BODY THERAPY
                                     <br />
+                                    <h4>Precio: $140.000</h4>
                                     <a href="/bodytherapy">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -356,7 +372,7 @@ export default function CardsTienda() {
                     </div>
                     </div>
                 </div>
-            </div>
+                </div>
             <Image src={banner} alt="logo" width="1090" />
         </div>
     );

@@ -117,12 +117,16 @@ export default function Producto() {
                 Este producto esta diseñado para colocarse alrededor del cuello,
                 hombros y espalda superior.
                 <br />
+                <br />
                 Contiene en su interior caléndula,limoncillo, romero, lavanda,
                 poleo y trigo.
+                <br />
                 <br />
                 Alivia dolores en hombros, cuello y pecho, puede utilizarse
                 caliente o frío.
               </p>
+              <br />
+              <p><strong>Precio: $120.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20pagina%20web%20y%20me%20interesa%20el%20TOP%20BODY%20WRAP">
                 <button className="calltoaction">COMPRAR</button>
@@ -170,6 +174,8 @@ export default function Producto() {
                 <br />
                 Puedes utilizar el producto en caliente y frió.
               </p>
+              <br />
+              <p><strong>Precio: $120.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20pagina%20web%20y%20me%20interesa%20el%20SPINE%20AND%20ABDOMEN%20BELT">
                 <button className="calltoaction">COMPRAR</button>
@@ -215,8 +221,11 @@ export default function Producto() {
                 dolores de cabeza, migraña, estrés, insomnio,fatiga ocular y
                 actúa como un sedante suave y natural para promover el sueño.
                 <br />
+                <br />
                 ❄️Utilízalo en frío metiéndolo dentro de tu congelador
               </p>
+              <br />
+              <p><strong>Precio: $60.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20pagina%20web%20y%20me%20interesa%20el%20LAVERDER%20EYE%20PILLOW">
                 <button className="calltoaction">COMPRAR</button>
@@ -259,8 +268,11 @@ export default function Producto() {
                 función principal es penetrar profundamente en las vías
                 respiratorias y descongestionarlas.
                 <br />
+                <br />
                 Este producto esta diseñado para utilizarse frío o caliente.
               </p>
+              <br />
+              <p><strong>Precio: $60.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20pagina%20web%20y%20me%20interesa%20el%20MINT%20PILLOW">
                 <button className="calltoaction">COMPRAR</button>
@@ -287,7 +299,6 @@ export default function Producto() {
                           priority
                           objectFit="cover"
                           fill
-                          blur
                         />
                       </div>
                     </div>
@@ -302,7 +313,11 @@ export default function Producto() {
                 flores y semillas, ideales para mejorar la circulación y
                 desinflamar, proporciona un descanso inmediato.
                 <br />
+                <br />
                 Pueden utilizarse en caliente o en frío.
+                <br />
+                <br />
+              <p><strong>Precio: $200.000</strong></p>
               </p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20pagina%20web%20y%20me%20interesan%20las%20ANTUFLAS%20T%C3%89RMICAS">
@@ -336,6 +351,8 @@ export default function Producto() {
                 cólicos, dolores lumbares, cervicales, dolores en los hombros,
                 dolores en las articulaciones y dolores musculares.
               </p>
+              <br />
+              <p><strong>Precio: $80.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20pagina%20web%20y%20me%20interesa%20el%20LUMBAR%20PACK">
                 <button className="calltoaction">COMPRAR</button>
@@ -368,9 +385,12 @@ export default function Producto() {
                 de velcro para ajustar el producto a la zona deseada sin que
                 este se caiga. 
                 <br/>
+                <br/>
                 El producto está diseñado para utilizarlo en
                 caliente o en frío.
               </p>
+              <br />
+              <p><strong>Precio: $80.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20pagina%20web%20y%20me%20interesa%20el%20LUMBAR%20PACK">
                 <button className="calltoaction">COMPRAR</button>
@@ -414,8 +434,11 @@ export default function Producto() {
                 inflamación, quemaduras o cualquier tipo de dolor en la mano o
                 la muñeca.
                 <br />
+                <br />
                 El producto está diseñado para utilizarlo en caliente o en frío
               </p>
+              <br />
+              <p><strong>Precio: $80.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20interesa%20el%20WRIST%20PACK">
                 <button className="calltoaction">COMPRAR</button>
@@ -456,14 +479,16 @@ export default function Producto() {
                 relajación, dentro de este kit encontrarás:
                 <br />
                 <br />
-                -1 almohadilla para cuello, pecho y hombros.
+                -1 Almohadilla para cuello, pecho y hombros.
                 <br />
-                -1 almohadilla para espalda, abdomen y cintura.
+                -1 Almohadilla para espalda, abdomen y cintura.
                 <br />
-                -1 almohadilla para ojos.
+                -1 Almohadilla para ojos.
                 <br />
-                -Almohadilla nasal
+                -1 Almohadilla nasal
               </p>
+              <br />
+              <p><strong>Precio: $300.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20interesa%20el%20PREMIUM%20TREATMENT%20SET">
                 <button className="calltoaction">COMPRAR</button>
@@ -501,6 +526,8 @@ export default function Producto() {
               <p>
               El HERB PACK, es una almohada multifuncional que se puede utilizar en cualquier parte del cuerpo, es ideal para trabajar, cólicos, dolores lumbares, cervicales, dolores en los hombros, dolores en las articulaciones y dolores musculares. 
               </p>
+              <br />
+              <p><strong>Precio: $70.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20interesa%20el%20HERB%20PACK">
                 <button className="calltoaction">COMPRAR</button>
@@ -538,10 +565,14 @@ export default function Producto() {
                       <p>
                       EL TOP AND LOWER está diseñado para aliviar dolores generalizados en la espalda, hombros y pecho.
                       <br/>
+                      <br/>
                       Contiene en el interior trigo, lavanda, romero,limoncillo, caléndula,manzanilla, poleo y romero. 
+                      <br/>
                       <br/>
                       Este producto solo se puede calentar en horno microondas.
                       </p>
+                      <br />
+              <p><strong>Precio: $320.000</strong></p>
                       <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20interesa%20el%20TOP%20AND%20LOWER">
                 <button className="calltoaction">COMPRAR</button>
@@ -579,10 +610,14 @@ export default function Producto() {
                       <p>
                       La MANTA TÉRMICA esta diseñada  para utilizarse en cualquier parte del cuerpo, es ideal para promover el sueño y la relajación gracias a su combinación de hierbas relajantes y su increíble confort.
                       <br/>
+                      <br/>
                       Contiene en el interior trigo, lavanda,romero, limoncillo, calendula, manzanilla, poleo y Romero. 
+                      <br/>
                       <br/>
                       Este producto solo se puede calentar en horno microondas.
                       </p>
+                      <br />
+              <p><strong>Precio: $320.000</strong></p>
                       <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20interesa%20el%20MANTA%20T%C3%89RMICA">
                 <button className="calltoaction">COMPRAR</button>
@@ -617,9 +652,22 @@ export default function Producto() {
                     </div>
                     <div className="descripcion">
                       <h3>SHOULDER PACK</h3>
-                      <p>
-                      Pendiente texto del shoulder pack
-                      </p>
+                      
+              <p>
+                Este producto esta diseñado para colocarse alrededor del cuello,
+                hombros y espalda superior.
+                <br />
+                <br />
+                Contiene en su interior caléndula,limoncillo, romero, lavanda,
+                poleo y trigo.
+                <br />
+                <br />
+                Alivia dolores en hombros, cuello y pecho, puede utilizarse
+                caliente o frío.
+              </p>
+              
+                      <br />
+              <p><strong>Precio: $110.000</strong></p>
                       <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20interesa%20el%20SHOULDER%20PACK">
                 <button className="calltoaction">COMPRAR</button>
@@ -657,10 +705,14 @@ export default function Producto() {
                       <p>
                       Este producto está diseñado para aliviar cólicos, dolores de espalda y cintura, posee una tira de velcro para que se pueda ajustar a tu cuerpo y realices actividades sin que esté se caiga. 
                       <br/>
+                      <br/>
                       Contiene en su interior nuestra combinación especial de flores, hierbas y semillas.
+                      <br/>
                       <br/>
                       Puedes utilizarlo en caliente o en frío.
                       </p>
+                      <br />
+              <p><strong>Precio: $110.000</strong></p>
                       <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20interesa%20el%20BACK%20&%20ABDOMENT%20BELT">
                 <button className="calltoaction">COMPRAR</button>
@@ -697,10 +749,14 @@ export default function Producto() {
                       <p>
                       Este producto está diseñado para utilizarse de manera multifuncional en varias zonas del cuerpo.
                       <br/>
+                      <br/>
                       Contiene en su interior nuestra colección de hierbas, flores y semillas.
+                      <br/>
                       <br/>
                       Este producto está diseñado para utilizarse en caliente o en frío. 
                       </p>
+                      <br />
+              <p><strong>Precio: $140.000</strong></p>
                       <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20interesa%20el%20BODY%20THERAPY">
                 <button className="calltoaction">COMPRAR</button>
