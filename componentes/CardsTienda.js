@@ -49,7 +49,9 @@ export default function CardsTienda() {
                                 </h3>
                             </div>
                         </div>
+                        <h4>Precio: $120.000</h4>
                     </div>
+                    
 
                     <div className="card">
                         <div className="imgBx">

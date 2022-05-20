@@ -436,16 +436,7 @@ footer .social_icon li a:hover{
   flex-wrap: wrap;
   justify-content: center;
 }
-.two{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.three{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+
 .descuento{
   width: 100px;
   position:absolute;
@@ -633,6 +624,9 @@ footer .social_icon li a:hover{
  }
 
 @media(max-width:415px){
+  .one{
+    
+  }
   .container-nosotros p{
     width: 280px;
     font-size: 15px;
@@ -659,7 +653,7 @@ footer .social_icon li a:hover{
     margin: 2px;
   }
   .imagenes-productos .card .contenBx .content h3{
-    font-size: 0.5em;
+    font-size: 1.2em;
     font-weight: 600;
     color: white;
     padding-top: 100px;
@@ -667,8 +661,8 @@ footer .social_icon li a:hover{
   }
   .imagenes-productos .card{
     position: relative;
-    width: 118px;
-    height: 175px;
+    width: 220px;
+    height: 280px;
     margin: 15px;
     overflow: hidden;
     z-index: 1;

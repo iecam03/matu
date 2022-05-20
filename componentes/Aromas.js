@@ -72,7 +72,7 @@ export default function Aromas() {
                         </div>
                     </div>
                     </div>
-                    <div className="two">
+                    <div className="one">
                     <div className="card">
                         <div className="imgBx">
                         <Image src={romero} className="img-inicio" alt="logo" layout="fill"/>
@@ -116,7 +116,7 @@ export default function Aromas() {
                         </div>
                     </div>
                     </div>
-                    <div className="three">
+                    <div className="one">
                     <div className="card">
                         <div className="imgBx">
                         <Image src={trigo} className="img-inicio" alt="logo" layout="fill"/>
