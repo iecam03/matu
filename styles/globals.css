@@ -225,23 +225,26 @@ height: 100%;
   padding-top: 225px;
   text-shadow: 1px 1px 2px black;
 }
+.imagenes-productos .card .contenBx .content h4{
+  color: #e90089;
+}
 .imagenes-productos .card .contenBx1 .content1 p{
-  font-size: 0.9em;
+  font-size: 0.85em;
   line-height: 1.5em;
   font-weight: 600;
   color: black;
-  text-align: left;
+  text-align: cent;
   
 }
 .imagenes-productos .card .contenBx .content h6{
   font-size: 0.9em;
   line-height: 1.4em;
   font-weight: bold;
-  color: black;
+  color: white;
   text-shadow: none;
 }
 .imagenes-productos .card .contenBx .content h6:hover{
-  font-size: 0.9em;
+  font-size: 1.1em;
   line-height: 1.4em;
   font-weight: bold;
   color: #e90089;
