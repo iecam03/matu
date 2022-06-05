@@ -66,7 +66,7 @@ export default function Diseño(props) {
       {props.children}
       </div>
       <div>
-      <a href="https://api.whatsapp.com/send?phone=573045433075" class="float" target="_blank">
+      <a href="https://api.whatsapp.com/send?phone=573045823787" class="float" target="_blank">
       <i class="fa fa-whatsapp my-float"></i>
       </a>
       </div>
