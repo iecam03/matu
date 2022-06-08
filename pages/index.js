@@ -17,7 +17,7 @@ export default function Home() {
                     loop="true"
                     playing="true"
                     className='react-player'
-                    url="https://cyw-comunicarte.s3.amazonaws.com/matu.mp4"
+                    url="https://www.portaldeartesanos.com/uploads/Video_animado_explicativo_Matu_Aromaterapia_f7a9460204.mp4"
                     width='100%'
                     height='100%'
                     controls="false"
