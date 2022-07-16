@@ -49,7 +49,7 @@ export default function CardsTienda() {
                                 </h3>
                             </div>
                         </div>
-                        <h4>Precio: $120.000</h4>
+                        <h4>Precio: $140.000</h4>
                     </div>
                     
 
@@ -67,7 +67,7 @@ export default function CardsTienda() {
                                 <h3>
                                     SPINE & ABDOMEN BELT
                                     <br />
-                                    <h4>Precio: $120.000</h4>
+                                    <h4>Precio: $140.000</h4>
                                     <a href="/spineandabdomentbelt">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -86,7 +86,7 @@ export default function CardsTienda() {
                                 <h3>
                                     LAVENDER EYE PILLOW
                                     <br />
-                                    <h4>Precio: $60.000</h4>
+                                    <h4>Precio: $70.000</h4>
                                     <a href="/lavendereyepillow">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -109,7 +109,7 @@ export default function CardsTienda() {
                                 <h3>
                                     MINT PILLOW
                                     <br />
-                                    <h4>Precio: $60.000</h4>
+                                    <h4>Precio: $70.000</h4>
                                     <a href="/mintpillow">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -134,7 +134,7 @@ export default function CardsTienda() {
                                 <h3>
                                     PREMIUM TREATMENT SET
                                     <br />
-                                    <h4>Precio: $300.000</h4>
+                                    <h4>Precio: $350.000</h4>
                                     <a href="/premiumset">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -250,7 +250,7 @@ export default function CardsTienda() {
                                 <h3>
                                     HERB PACK
                                     <br />
-                                    <h4>Precio: $70.000</h4>
+                                    <h4>Precio: $80.000</h4>
                                     <a href="/herbpack">
                                         <h6>Ver Más</h6>
                                     </a>
