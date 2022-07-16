@@ -19,7 +19,7 @@ export default function Aromas() {
                 <h2 className="sub-titulo"> Nuestra colección de hierbas aromáticas incluye aquellas que ayudan en el alivio del dolor el estrés y aquellas que ayudan a la relajación</h2>
                 <br/>
                 <br/>
-                <div className="imagenes-productos">
+                <div className="imagenes-aromas">
                     <div className="one">
                     <div className="card">
                         <div className="imgBx">
