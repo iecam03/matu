@@ -42,7 +42,7 @@ export default function CardsTienda() {
                                 <h3>
                                     TOP BODY WRAP
                                     <br />
-                                    <h4>Precio: $120.000</h4>
+                                    <h4>Precio: $140.000</h4>
                                     <a href="/topbodywrap">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -86,7 +86,7 @@ export default function CardsTienda() {
                                 <h3>
                                     LAVENDER EYE PILLOW
                                     <br />
-                                    <h4>Precio: $70.000</h4>
+                                    <h4>Precio: $80.000</h4>
                                     <a href="/lavendereyepillow">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -109,7 +109,7 @@ export default function CardsTienda() {
                                 <h3>
                                     MINT PILLOW
                                     <br />
-                                    <h4>Precio: $70.000</h4>
+                                    <h4>Precio: $80.000</h4>
                                     <a href="/mintpillow">
                                         <h6>Ver Más</h6>
                                     </a>

@@ -126,7 +126,7 @@ export default function Producto() {
                 caliente o frío.
               </p>
               <br />
-              <p><strong>Precio: $120.000</strong></p>
+              <p><strong>Precio: $140.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20pagina%20web%20y%20me%20interesa%20el%20TOP%20BODY%20WRAP">
                 <button className="calltoaction">COMPRAR</button>
@@ -175,7 +175,7 @@ export default function Producto() {
                 Puedes utilizar el producto en caliente y frió.
               </p>
               <br />
-              <p><strong>Precio: $120.000</strong></p>
+              <p><strong>Precio: $140.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20pagina%20web%20y%20me%20interesa%20el%20SPINE%20AND%20ABDOMEN%20BELT">
                 <button className="calltoaction">COMPRAR</button>
@@ -225,7 +225,7 @@ export default function Producto() {
                 ❄️Utilízalo en frío metiéndolo dentro de tu congelador
               </p>
               <br />
-              <p><strong>Precio: $60.000</strong></p>
+              <p><strong>Precio: $70.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20pagina%20web%20y%20me%20interesa%20el%20LAVERDER%20EYE%20PILLOW">
                 <button className="calltoaction">COMPRAR</button>
@@ -272,7 +272,7 @@ export default function Producto() {
                 Este producto esta diseñado para utilizarse frío o caliente.
               </p>
               <br />
-              <p><strong>Precio: $60.000</strong></p>
+              <p><strong>Precio: $70.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20pagina%20web%20y%20me%20interesa%20el%20MINT%20PILLOW">
                 <button className="calltoaction">COMPRAR</button>
@@ -488,7 +488,7 @@ export default function Producto() {
                 -1 Almohadilla nasal
               </p>
               <br />
-              <p><strong>Precio: $300.000</strong></p>
+              <p><strong>Precio: $350.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20interesa%20el%20PREMIUM%20TREATMENT%20SET">
                 <button className="calltoaction">COMPRAR</button>
@@ -527,7 +527,7 @@ export default function Producto() {
               El HERB PACK, es una almohada multifuncional que se puede utilizar en cualquier parte del cuerpo, es ideal para trabajar, cólicos, dolores lumbares, cervicales, dolores en los hombros, dolores en las articulaciones y dolores musculares. 
               </p>
               <br />
-              <p><strong>Precio: $70.000</strong></p>
+              <p><strong>Precio: $80.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20interesa%20el%20HERB%20PACK">
                 <button className="calltoaction">COMPRAR</button>

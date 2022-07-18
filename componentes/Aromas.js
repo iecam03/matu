@@ -96,7 +96,7 @@ export default function Aromas() {
                                 <h3>LAVANDA</h3>
                                 <br/>
                                 <p>
-                                Está flor es ideal para la relación ayuda a disminuir el estrés y actúa como un sedante suave y promueve el sueño. 
+                                Está flor es ideal para la relajación ayuda a disminuir el estrés y actúa como un sedante suave y promueve el sueño. 
                                 </p>
                             </div>
                         </div>
