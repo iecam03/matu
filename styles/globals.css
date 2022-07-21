@@ -639,9 +639,7 @@ footer .social_icon li a:hover{
  }
 
 @media(max-width:415px){
-  .one{
-    
-  }
+  
   .container-nosotros p{
     width: 280px;
     font-size: 15px;
@@ -676,7 +674,7 @@ footer .social_icon li a:hover{
   }
   .imagenes-productos .card{
     position: relative;
-    width: 160px;
+    width: 140px;
     height: 220px;
     margin: 15px;
     overflow: hidden;
@@ -687,7 +685,24 @@ footer .social_icon li a:hover{
     font-size: 16px;
   }
 }
-
+@media(max-width:320px){
+  .imagenes-productos .card{
+    position: relative;
+    width: 120px;
+    height: 210px;
+    margin: 15px;
+    overflow: hidden;
+    z-index: 1;
+    
+  }
+  .imagenes-productos .card .contenBx .content h3{
+    font-size: 0.68em;
+    font-weight: 600;
+    color: white;
+    padding-top: 100px;
+    text-shadow: 1px 1px 2px black;
+  }
+}
 
 /* Aromas */
 

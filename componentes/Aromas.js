@@ -30,7 +30,7 @@ export default function Aromas() {
                                 <h3>EUCALIPTO</h3>
                                 <br/>
                                 <p>
-                                        Es un descongestionante natural especial para afecciones respiratorias
+                                        Es un descongestionante natural especial para afecciones respiratorias.
                                         <br/>
                                         <br/>
                                         Tiene propiedades analgésicas,antibacterianas y antiinflamatorias.

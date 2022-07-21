@@ -712,7 +712,7 @@ export default function Producto() {
                       Puedes utilizarlo en caliente o en frío.
                       </p>
                       <br />
-              <p><strong>Precio: $110.000</strong></p>
+              <p><strong>Precio: $80.000</strong></p>
                       <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20interesa%20el%20BACK%20&%20ABDOMENT%20BELT">
                 <button className="calltoaction">COMPRAR</button>
