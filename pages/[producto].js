@@ -225,7 +225,7 @@ export default function Producto() {
                 ❄️Utilízalo en frío metiéndolo dentro de tu congelador
               </p>
               <br />
-              <p><strong>Precio: $70.000</strong></p>
+              <p><strong>Precio: $80.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20pagina%20web%20y%20me%20interesa%20el%20LAVERDER%20EYE%20PILLOW">
                 <button className="calltoaction">COMPRAR</button>
@@ -272,7 +272,7 @@ export default function Producto() {
                 Este producto esta diseñado para utilizarse frío o caliente.
               </p>
               <br />
-              <p><strong>Precio: $70.000</strong></p>
+              <p><strong>Precio: $80.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20pagina%20web%20y%20me%20interesa%20el%20MINT%20PILLOW">
                 <button className="calltoaction">COMPRAR</button>
@@ -317,7 +317,7 @@ export default function Producto() {
                 Pueden utilizarse en caliente o en frío.
                 <br />
                 <br />
-              <p><strong>Precio: $200.000</strong></p>
+              <p><strong>Precio: $250.000</strong></p>
               </p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20pagina%20web%20y%20me%20interesan%20las%20ANTUFLAS%20T%C3%89RMICAS">
@@ -488,7 +488,7 @@ export default function Producto() {
                 -1 Almohadilla nasal
               </p>
               <br />
-              <p><strong>Precio: $350.000</strong></p>
+              <p><strong>Precio: $360.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20interesa%20el%20PREMIUM%20TREATMENT%20SET">
                 <button className="calltoaction">COMPRAR</button>
@@ -572,7 +572,7 @@ export default function Producto() {
                       Este producto solo se puede calentar en horno microondas.
                       </p>
                       <br />
-              <p><strong>Precio: $320.000</strong></p>
+              <p><strong>Precio: $400.000</strong></p>
                       <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20interesa%20el%20TOP%20AND%20LOWER">
                 <button className="calltoaction">COMPRAR</button>
@@ -617,7 +617,7 @@ export default function Producto() {
                       Este producto solo se puede calentar en horno microondas.
                       </p>
                       <br />
-              <p><strong>Precio: $320.000</strong></p>
+              <p><strong>Precio: $400.000</strong></p>
                       <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20interesa%20el%20MANTA%20T%C3%89RMICA">
                 <button className="calltoaction">COMPRAR</button>
@@ -667,7 +667,7 @@ export default function Producto() {
               </p>
               
                       <br />
-              <p><strong>Precio: $110.000</strong></p>
+              <p><strong>Precio: $120.000</strong></p>
                       <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20interesa%20el%20SHOULDER%20PACK">
                 <button className="calltoaction">COMPRAR</button>
@@ -756,7 +756,7 @@ export default function Producto() {
                       Este producto está diseñado para utilizarse en caliente o en frío. 
                       </p>
                       <br />
-              <p><strong>Precio: $140.000</strong></p>
+              <p><strong>Precio: $150.000</strong></p>
                       <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20interesa%20el%20BODY%20THERAPY">
                 <button className="calltoaction">COMPRAR</button>
