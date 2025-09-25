@@ -14,13 +14,13 @@ export default function Home() {
         <div className="container-player">
             <div className="player-wrapper">
                 <ReactPlayer
-                    loop="true"
-                    playing="true"
+                    loop
+                    playing
                     className='react-player'
-                    url="https://www.portaldeartesanos.com/uploads/Video_animado_explicativo_Matu_Aromaterapia_f7a9460204.mp4"
+                    url="https://www.youtube.com/watch?v=mANmaPQ4GXw"
                     width='100%'
                     height='100%'
-                    controls="false"
+                    controls={false}
                 />
             </div>             
         </div>
