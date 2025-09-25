@@ -13,9 +13,9 @@ import herb2 from "../public/herb/image3.jpeg";
 import { manta1 } from "../public/mantatermica/index";
 import banner from "../public/banner.png";
 import { topandlower1 } from "../public/topandlowerimagenes/index";
-import {shoulder1} from "../public/Shoulder/index"
+import { shoulder1 } from "../public/Shoulder/index";
 import { back1 } from "../public/backbelt/index";
-import {body1} from "../public/body therapy/index"
+import { body1 } from "../public/body therapy/index";
 
 
 export default function CardsTienda() {
@@ -180,7 +180,7 @@ export default function CardsTienda() {
                                 <h3>
                                     LUMBAR PACK
                                     <br />
-                                    <h4>Precio: $80.000</h4>
+                                    <h4>Precio: $90.000</h4>
                                     <a href="/lumbarpack">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -203,7 +203,7 @@ export default function CardsTienda() {
                                 <h3>
                                     KNEE PACK
                                     <br />
-                                    <h4>Precio: $80.000</h4>
+                                    <h4>Precio: $90.000</h4>
                                     <a href="/kneepack">
                                         <h6>Ver Más</h6>
                                     </a>
@@ -228,7 +228,7 @@ export default function CardsTienda() {
                                 <h3>
                                     WRIST PACK
                                     <br />
-                                    <h4>Precio: $80.000</h4>
+                                    <h4>Precio: $90.000</h4>
                                     <a href="/wristpack">
                                         <h6>Ver Más</h6>
                                     </a>

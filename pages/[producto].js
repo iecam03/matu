@@ -19,12 +19,12 @@ import inicioP8 from "../public/inicioP8.png";
 import { wrist1 } from "../public/wrist/index";
 import inicioP9 from "../public/inicioP9.png";
 import { kit1, kit2, kit3, kit4 } from "../public/kit/index";
-import {herb1,herb2} from "../public/herb/index"
-import { manta1,manta2 } from "../public/mantatermica/index";
-import { topandlower1,topandlower2 } from "../public/topandlowerimagenes/index";
-import { shoulder1,shoulder2 } from "../public/Shoulder/index";
-import { back1,back2,back3 } from "../public/backbelt/index";
-import {body1,body2,body3,body4} from "../public/body therapy/index"
+import { herb1, herb2 } from "../public/herb/index";
+import { manta1, manta2 } from "../public/mantatermica/index";
+import { topandlower1, topandlower2 } from "../public/topandlowerimagenes/index";
+import { shoulder1, shoulder2 } from "../public/Shoulder/index";
+import { back1, back2, back3 } from "../public/backbelt/index";
+import { body1, body2, body3, body4 } from "../public/body therapy/index";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -352,7 +352,7 @@ export default function Producto() {
                 dolores en las articulaciones y dolores musculares.
               </p>
               <br />
-              <p><strong>Precio: $80.000</strong></p>
+              <p><strong>Precio: $90.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20pagina%20web%20y%20me%20interesa%20el%20LUMBAR%20PACK">
                 <button className="calltoaction">COMPRAR</button>
@@ -390,7 +390,7 @@ export default function Producto() {
                 caliente o en frío.
               </p>
               <br />
-              <p><strong>Precio: $80.000</strong></p>
+              <p><strong>Precio: $90.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20pagina%20web%20y%20me%20interesa%20el%20LUMBAR%20PACK">
                 <button className="calltoaction">COMPRAR</button>
@@ -438,7 +438,7 @@ export default function Producto() {
                 El producto está diseñado para utilizarlo en caliente o en frío
               </p>
               <br />
-              <p><strong>Precio: $80.000</strong></p>
+              <p><strong>Precio: $90.000</strong></p>
               <div className="btn-only">
                 <a  href="https://api.whatsapp.com/send?phone=+573045823787&text=Hola!%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20interesa%20el%20WRIST%20PACK">
                 <button className="calltoaction">COMPRAR</button>
